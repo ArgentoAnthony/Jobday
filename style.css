@@ -1,0 +1,103 @@
+/* Général */
+*{
+    font-family: 'Lora', sans-serif;
+    margin: 0% 6%;
+    padding: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+    background: #ededed;
+}
+section, header{
+    width: 60%;
+    box-shadow: 0px 0px 10px #bbb;
+    margin: auto;
+    margin-top: 1em;
+}
+section{
+    background-color: #fff;
+    margin-top: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* Body */
+
+header {
+    list-style-type: none;
+    background-color: #404040;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    height: 150px;
+}
+
+#pProfil {
+    display: flex;
+    height: 130px;
+    margin: 10px;
+}
+
+#titre {
+    flex-grow: 1; /* Permet au titre de prendre tout l'espace disponible */
+    text-align: center; /* Centre le texte dans l'élément #titre */
+}
+
+
+.Coordonnees {
+    display: flex;
+    flex-direction: row; /* Pour aligner les premiers enfants horizontalement */
+    flex-wrap: wrap; /* Permettre le passage à la ligne si l'espace est insuffisant */
+    justify-content:space-between; /* Espacement équitable entre les div */
+}
+
+.contact-flex {
+    display: flex;
+    flex-direction: column; /* Pour aligner les enfants verticalement */
+    margin: 5px; /* Espacement entre les div de contact */
+    width: calc(50% - 10px); /* Pour occuper la moitié de la largeur avec une marge */
+}
+
+
+/* Boutons */
+button, #download{
+    padding: 2px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Images Liens */ 
+.Liens{
+    text-align: center;
+    margin-left: 0px;
+}
+img:visited{
+    color: red;
+    text-decoration: none !important;
+    text-decoration-line: none !important;
+}
+.Liens a{
+    text-decoration: none !important;  
+}
+
+
